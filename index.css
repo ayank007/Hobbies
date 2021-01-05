@@ -1393,6 +1393,7 @@ nav > ul li a:hover::before{
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
+    z-index:4;
 }
 .teaCon{
     width: 160px;
@@ -1568,6 +1569,7 @@ nav > ul li a:hover::before{
     height: 280px;
     position: relative;
     margin-left: 70px!important;
+    z-index:4;
 }
 .countingStars svg{
     position: relative;
@@ -1680,6 +1682,7 @@ nav > ul li a:hover::before{
     display: flex;
     border-radius: 10px;
     justify-content: space-between;
+    z-index:4;
 }
 .moneyGif{
     width: 55%;
@@ -1700,5 +1703,5 @@ nav > ul li a:hover::before{
 }
 .moneyCon .stylishScroll{
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
